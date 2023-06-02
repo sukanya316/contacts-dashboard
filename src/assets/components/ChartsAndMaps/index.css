@@ -1,0 +1,44 @@
+
+@media screen and (max-width: 576px) {
+.display-row{
+    display: flex;
+    flex-direction: column;
+}
+.leaflet-container{
+    height: 60vh;
+    width: 100vw;
+   margin: 1%;
+}
+}
+@media screen and (min-width: 576px) {
+    .display-row{
+        display: flex;
+        flex-direction: row;
+       width: 85%;
+    }
+    .leaflet-container{
+        height: 60vh;
+        width: 70vw;
+       margin: 1%;
+    }
+}
+.display-column{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.linechart-container{
+    height: 40vh;
+    width: 90vw;
+    margin: 1%;
+}
+.charts-maps-header{
+    background-color: darkcyan;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
