@@ -8,7 +8,8 @@ import './App.css';
 const App=()=>(
   <BrowserRouter >
   <Routes>
-    <Route path="/contacts" Component={Home}/>
+  <Route exact path="/" Component={Home}/>
+    <Route exact path="/contacts" Component={Home}/>
     <Route exact path="/create-contact" Component={CreateContact}/>
     <Route exact path="/edit-contact/:id" Component={EditContact}/>
     <Route exact path="/charts-and-maps" Component={ChartsAndMaps}/>
