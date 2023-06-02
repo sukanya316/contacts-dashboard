@@ -41,10 +41,10 @@ const EditContact=()=>{
                         <div style={{display:'flex',flexDirection:'row'}}>
                             <p style={{width:'70px'}}>Status: </p>
                         <div>
-                        <input type="radio" name="status" value="Active" id="active" checked={'Active'===status} onChange={(event)=>setEditStatus(event.target.value)}/>
+                        <input type="radio" name="status" value="Active" id="active" checked={'Active'===editStatus} onChange={(event)=>setEditStatus(event.target.value)}/>
                         <label htmlFor="active" >Active</label>
                         <br/>
-                        <input type="radio" name="status" value="InActive" id="in-active" checked={'InActive'===status} onChange={(event)=>setEditStatus(event.target.value)}/>
+                        <input type="radio" name="status" value="InActive" id="in-active" checked={'InActive'===editStatus} onChange={(event)=>setEditStatus(event.target.value)}/>
                         <label htmlFor="in-active">InActive</label>
                         </div>
                         </div>
